@@ -1,0 +1,83 @@
+/* Additional custom styles for the forensics app */
+
+.forensics-gradient {
+  background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+}
+
+.evidence-card {
+  transition: all 0.3s ease;
+  border-left: 4px solid transparent;
+}
+
+.evidence-card:hover {
+  border-left-color: #10b981;
+  transform: translateY(-2px);
+}
+
+.upload-zone {
+  transition: all 0.3s ease;
+}
+
+.upload-zone:hover {
+  border-color: #3b82f6;
+  background-color: #f8fafc;
+}
+
+.hash-display {
+  font-family: 'Courier New', monospace;
+  font-size: 0.75rem;
+  background-color: #f1f5f9;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  border: 1px solid #e2e8f0;
+}
+
+.export-panel {
+  position: sticky;
+  top: 2rem;
+}
+
+/* Loading animation */
+.loading-spinner {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* Success animation */
+.success-flash {
+  animation: flash 0.5s ease-in-out;
+}
+
+@keyframes flash {
+  0% { background-color: #f0fdf4; }
+  50% { background-color: #dcfce7; }
+  100% { background-color: #f0fdf4; }
+}
+
+/* Responsive design improvements */
+@media (max-width: 768px) {
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  .forensics-card {
+    padding: 1rem;
+  }
+}
+
+/* Print styles for reports */
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  
+  .forensics-card {
+    box-shadow: none;
+    border: 1px solid #000;
+  }
+}
