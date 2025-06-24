@@ -5,13 +5,4 @@ python-multipart==0.0.6
 pydantic==2.5.0
 python-jose[cryptography]==3.3.0
 passlib[bcrypt]==1.7.4
-sqlite3
 pandas==2.1.4
-hashlib
-datetime
-json
-csv
-pathlib
-zipfile
-plistlib
-xml.etree.ElementTree
