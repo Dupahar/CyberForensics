@@ -452,7 +452,7 @@ function CaseDetail({ caseId }) {
 
           <div className="mt-6 p-3 bg-blue-50 rounded-lg">
             <p className="text-xs text-blue-800">
-              <strong>Security Note:</strong> All exports include SHA-256 hashes for integrity verification and forensics-grade timestamps.
+              <strong>Security Note:</strong> All exports include SHA-512 hashes for integrity verification and forensics-grade timestamps.
             </p>
           </div>
         </div>
