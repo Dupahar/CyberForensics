@@ -556,7 +556,6 @@ function CaseDetailWrapper() {
   return <CaseDetail caseId={caseId} />;
 }
 
-// Fix for useParams import
-import { useParams } from 'react-router-dom';
+
 
 export default App;
