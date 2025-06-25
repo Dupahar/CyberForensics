@@ -53,8 +53,8 @@ class ExportRequest(BaseModel):
 
 # Utility functions
 def calculate_hash(data: bytes) -> str:
-    """Calculate SHA-256 hash of data"""
-    return hashlib.sha256(data).hexdigest()
+    """Calculate SHA-512 hash of data"""
+    return hashlib.sha512(data).hexdigest()
 
 def create_evidence_timestamp() -> str:
     """Create forensics-grade timestamp"""
