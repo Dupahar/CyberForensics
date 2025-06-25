@@ -493,7 +493,7 @@ function About() {
               </li>
               <li className="flex items-start">
                 <span className="text-evidence-green mr-2">•</span>
-                <strong>Data Integrity:</strong> SHA-256 hashing for evidence verification
+                <strong>Data Integrity:</strong> SHA-512 hashing for evidence verification
               </li>
               <li className="flex items-start">
                 <span className="text-evidence-green mr-2">•</span>
