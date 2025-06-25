@@ -373,7 +373,7 @@ function CaseDetail({ caseId }) {
                     </div>
                     <div className="flex items-center mt-2 text-xs text-gray-500">
                       <Hash className="h-3 w-3 mr-1" />
-                      SHA-256: {ev.file_hash?.substring(0, 16)}...
+                      SHA-512: {ev.file_hash?.substring(0, 16)}...
                     </div>
                   </div>
                 ))}
