@@ -15,8 +15,8 @@ import * as FileSystem from 'expo-file-system';
 import Constants from 'expo-constants';
 import { MaterialIcons } from '@expo/vector-icons';
 
-// API Configuration - Update this to your server's IP address
-const API_BASE_URL = 'http://192.168.1.100:8001';  // Change this to your computer's IP
+// API Configuration - Auto-detected server IP address
+const API_BASE_URL = 'http://10.64.146.45:8001';  // Auto-configured backend URL
 
 const api = {
   async createCase(caseData) {
