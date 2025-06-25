@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Routes, Route, Link, useNavigate } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Link, useNavigate, useParams } from 'react-router-dom';
 import { Shield, Database, FileText, Phone, MessageSquare, Users, Download, Upload, Hash, Clock } from 'lucide-react';
 import './App.css';
 
