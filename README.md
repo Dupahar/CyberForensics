@@ -7,7 +7,7 @@ A professional-grade forensics tool for extracting and exporting digital evidenc
 - **Export Messages**: Extract text messages, WhatsApp, Telegram conversations
 - **Export Contacts**: Extract contact information and address books  
 - **Export Call Logs**: Extract call history with metadata
-- **Data Integrity**: SHA-256 hashing for evidence verification
+- **Data Integrity**: SHA-512 hashing for evidence verification
 - **Evidence Timestamps**: Forensics-grade timestamping
 - **Multiple Formats**: JSON and CSV export options
 
