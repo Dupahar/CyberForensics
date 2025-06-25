@@ -22,7 +22,7 @@ A professional-grade forensics tool for extracting and exporting digital evidenc
 - Frontend: React with Tailwind CSS
 - Backend: FastAPI with Python
 - Database: MongoDB
-- Security: SHA-256 hashing, evidence logging
+- Security: SHA-512 hashing, evidence logging
 
 ## Usage
 
